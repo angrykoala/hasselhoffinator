@@ -1,28 +1,32 @@
 {
-  "name": "hasselhoffinator",
-  "version": "0.2.0",
-  "description": "Hasselhoff attacks taken to a new level",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/demiurgosoft/hasselhoffinator.git"
-  },
-  "keywords": [
-    "hasselhoff",
-    "attack",
-    "desktop",
-    "wallpaper"
-  ],
-  "author": "demiurgosoft <demiurgosoft@hotmail.com>",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/demiurgosoft/hasselhoffinator/issues"
-  },
-  "homepage": "https://github.com/demiurgosoft/hasselhoffinator#readme",
-  "dependencies": {
-    "wallpaper": "^2.1.1"
-  }
+    "name": "hasselhoffinator",
+    "version": "1.2.1",
+    "description": "Hasselhoff attacks taken to a new level",
+    "main": "app.js",
+    "bin": {
+        "hasselhoff": "./app.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/demiurgosoft/hasselhoffinator.git"
+    },
+    "keywords": [
+        "hasselhoff",
+        "attack",
+        "desktop",
+        "wallpaper"
+    ],
+    "author": "demiurgosoft <demiurgosoft@hotmail.com>",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/demiurgosoft/hasselhoffinator/issues"
+    },
+    "homepage": "https://github.com/demiurgosoft/hasselhoffinator#readme",
+    "dependencies": {
+        "commander": "^2.9.0",
+        "wallpaper": "^2.1.1"
+    }
 }
