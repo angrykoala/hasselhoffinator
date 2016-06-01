@@ -15,7 +15,7 @@ var config = require('./config.js');
 var rsc = config.resourcesDir;
 var wp = config.wallpapers;
 
-var version=process.env.npm_package_version || "1.2.1";
+var version=process.env.npm_package_version || "0.2.1";
 
 function hasselhoff(done, image) {
     var img = image || wp.hasselhoff;
