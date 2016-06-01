@@ -12,10 +12,10 @@ var commander = require('commander');
 var fs = require('fs');
 
 var config = require('./config.js');
-var rsc = config.resourcesDir;
+var rsc = __dirname+"/"+config.resourcesDir;
 var wp = config.wallpapers;
 
-var version=process.env.npm_package_version || "0.2.1";
+var version=process.env.npm_package_version || "0.2.2";
 
 function hasselhoff(done, image) {
     var img = image || wp.hasselhoff;
@@ -26,7 +26,7 @@ function hasselhoff(done, image) {
 
 function restore(done) {
     if (!done) done = function() {};
-    fs.readFile('data.json', 'utf-8', function(err, data) {
+    fs.readFile(__dirname+'/data.json', 'utf-8', function(err, data) {
         if (err) return done(err);
         if (!data) return done(new Error("Data read problem"));
         var obj = JSON.parse(data);
@@ -40,10 +40,9 @@ function storeCurrent(done) {
         var conf = {
             previous: imgpath
         };
-        fs.writeFile('./data.json', JSON.stringify(conf), done);
+        fs.writeFile(__dirname+'/data.json', JSON.stringify(conf), done);
     });
 }
-
 
 commander.version(version)
     .usage('[options]')

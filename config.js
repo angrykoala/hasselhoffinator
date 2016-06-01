@@ -1,5 +1,5 @@
 module.exports={
-    resourcesDir: './resources/',
+    resourcesDir: 'resources/',
     wallpapers:{
         hasselhoff: 'hasselhoff.jpg',
         koala:'koala.jpg'
