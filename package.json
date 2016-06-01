@@ -1,6 +1,6 @@
 {
     "name": "hasselhoffinator",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "Hasselhoff attacks taken to a new level",
     "main": "app.js",
     "bin": {
