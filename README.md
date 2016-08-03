@@ -1,5 +1,6 @@
 Hasselhoffinator
 ================
+_by @angrykoala_
 Hasselhoff attacks taken to a new level.
 
 A Hasselhoff attack is a security _warning_ to those users who left their computer with their session opened.
@@ -15,7 +16,7 @@ Requires **node.js** and **npm**
     * `npm install -g hasselhoffinator` to install globally (_recommended_)
         * `npm install hasselhoffinator` to install locally (inside `node_modules/hasselhoffinator` folder)
 * From GitHub:
-    1. `git clone `  <https://github.com/demiurgosoft/hasselhoffinator>
+    1. `git clone `  <https://github.com/angrykoala/hasselhoffinator>
     2. `cd hasselhoffinator`    
     3. `npm install`
 

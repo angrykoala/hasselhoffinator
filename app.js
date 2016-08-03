@@ -2,7 +2,7 @@
 
 /*
 Hasselhoffinator
-by @ demiurgosoft <demiurgosoft@hotmail.com>
+by @angrykoala <angrykoala@outlook.es>
 Easy Hasselhoff attacks
 Licensed under GPL-V3.0
 */
